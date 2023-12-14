@@ -1,0 +1,129 @@
+/* Input */
+#formLogin .form-group input[type=text]{
+    width:30em;
+    height:2.5em;
+}
+
+
+/* Input */
+#formLogin .form-group input[type=password]{
+    width:30em;
+    height:2.5em;
+}
+
+
+/* Form login */
+#formLogin{
+    width:35em;
+    height:25em;
+    position:relative;
+    top:2em;
+    left:139px;
+    margin-left:0px;
+    transform:translatex(0px) translatey(0px);
+    text-align:left;
+}
+
+/* Button */
+#formLogin .btn-primary{
+    margin-top:0em;
+    position:relative;
+    top:2em;
+}
+
+/* Form group */
+#formLogin .form-group{
+    position:relative;
+    top:0em !important;
+}
+
+/* Label */
+#formLogin .form-group label{
+    margin-right:0em;
+    margin-top:2em;
+}
+
+/* Input */
+#formLogin .form-group input[type=checkbox]{
+    position:relative;
+    top:2em;
+}
+
+
+/* Divlogin */
+#divlogin{
+    height:auto !important;
+    background-image:url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxzZWFyY2h8OXx8bG9naW58ZW58MHx8fHwxNjk5MTMwNzA1fDA&ixlib=rb-4.0.3&q=80&w=2560");
+    background-size:cover;
+    height:655px !important;
+}
+
+/* Paragraph */
+#divlogin p{
+    width:15em;
+    position:relative;
+    top:4em;
+    left:139px;
+}
+
+/* Button */
+#divlogin p .btn-primary{
+    margin-left:1em;
+}
+
+
+/* Div register */
+#divRegister{
+    width:439px;
+    position:relative;
+    left:800px;
+    top:-400px;
+    height:185px !important;
+}
+
+/* Paragraph */
+#divRegister p{
+    top:-115px;
+    left:510px;
+    width:170px;
+    margin-bottom:0px;
+}
+
+/* Emailreg */
+#emailreg{
+    width:480px;
+    height:40px;
+}
+
+/* Form group */
+#formReg .form-group{
+    margin-top:25.5px;
+}
+   
+/* Pswreg */
+#pswreg{
+    position:relative;
+    top:8px;
+    width:480px;
+}
+
+/* Label */
+#formReg .form-group label{
+    position:relative;
+    top:0px;
+    margin-top:0px;
+}
+
+
+/* Paragraph */
+#formLogin p{
+    top:38px;
+    width:302px;
+}
+
+
+/* Button */
+#formLogin .btn-primary{
+    position:fixed;
+    top:348px;
+}

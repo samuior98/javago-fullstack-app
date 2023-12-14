@@ -1,0 +1,54 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Cabin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Card */
+#box .card-group .card{
+ margin-right:30px;
+}
+
+/* Image */
+.card-group .card img{
+ height:300px;
+}
+
+/* Card body */
+.card-group .card .card-body{
+ font-weight:700;
+ text-transform:uppercase;
+ text-align:center;
+ font-size:20px;
+ font-family:'Cabin', sans-serif;
+}
+
+@media (min-width:576px){
+
+ /* Card */
+ #box .card-group .card{
+  margin-left:30px;
+ }
+ 
+}
+
+/* Heading */
+#box div h4{
+    text-align:center;
+    margin-bottom:38px;
+    text-transform:uppercase;
+   }
+   
+   @media (min-width:1200px){
+   
+    /* Heading */
+    #box div h4{
+     font-size:30px;
+    }
+    
+   }
+
+
+   /* Div best room */
+#divBestRoom{
+    margin-bottom:80px;
+    margin-top:-20px;
+   }
+   

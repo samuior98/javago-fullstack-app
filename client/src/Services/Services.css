@@ -1,0 +1,21 @@
+#divRow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col-sm-3 {
+    margin-bottom: 70px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#footer {
+    width: auto;
+    background-color: #ff914d;
+    top: 18px !important;
+    margin-bottom: -50px;
+}

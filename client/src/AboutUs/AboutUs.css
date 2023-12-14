@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+#heada {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Column 12/12 */
+#heada .text-center{
+    position:relative;
+    top:-125px;
+    font-weight:400;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+.fw-normal, .lead{
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+
+#divDescr .material-symbols-outlined {
+    position: relative;
+    top: 4px !important;
+}
+
+#divServices .material-symbols-outlined {
+    position: relative;
+    top: 3px !important;
+}
+
+#divRules .material-symbols-outlined {
+    position: relative;
+    top: 3px !important;
+}
+
+#divNotes .material-symbols-outlined {
+    position: relative;
+    top: 3px !important;
+}
+
+
+#divNav {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#divDescr {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+#divServices {
+    margin-left: 200px;
+    margin-right: 200px;
+    columns: 2;
+}
+
+#divRules {
+    margin-left: 200px;
+    margin-right: 200px;
+    columns: 2;
+}
+
+#divNotes {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#footer {
+    width: auto;
+    background-color: #ff914d;
+    top: 18px !important;
+    margin-bottom: -50px;
+}
+
+#section {
+    position: relative;
+    top: -13px !important;
+}
+
+
+#arrowUp {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#arrowUp:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
